@@ -16,4 +16,13 @@ The work presented in this dissertation makes significant contributions to the f
 - **Development of Models for Tracking CoB and CoM of Mars and Itokawa:**  
   The dissertation resulted in deep learning models that can accurately track both the center of brightness (CoB) and center of mass (CoM) for Mars and Itokawa. These models represent a substantial advancement over existing optical navigation methods, particularly in handling irregular shapes. They enhance spacecraft navigation autonomy and precision, supporting more reliable mission operations in deep space.
 
-## intstructions
+## Instructions:
+
+- **Step 1: Dataset**
+Select the celestial object: Mars (Mars file), Itokawa (asteroids file).
+Select the model type: Static (generate_dataset.py), Dynamic (generate_datasetSQ.py). 
+Select the target: CoB(type=CoB), CoM(Type=CoM).
+Adjust the size of the dataset by selecting the number of runs (509 runs max for Mars, 373 runs max for Itokawa).
+- **Step 2: training and testing**
+Use "Static_models.ipynb" to train and test static models.
+use "Dynamic_models.ipynb" to train and test dynamic models.
