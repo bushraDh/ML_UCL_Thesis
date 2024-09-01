@@ -51,7 +51,7 @@ def imgConv(image):
     return image_vector
 
 if __name__ == "__main__":
-    output_dir=os.path.join(os.getcwd(), 'data')
+    output_dir=os.path.join(os.getcwd(), 'Mars\\data')
     os.makedirs(output_dir, exist_ok=True)
 
     

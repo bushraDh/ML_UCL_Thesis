@@ -92,8 +92,8 @@ if __name__ == "__main__":
         transforms.Normalize(mean=[0.5], std=[0.5])  # Normalization values for grayscale
     ])
 
-    label_dirs = os.path.join(os.getcwd(), 'data')
-    image_dirs = os.path.join(os.getcwd(), 'cnn_MC_data\\run')
+    label_dirs = os.path.join(os.getcwd(), 'Mars\\data')
+    image_dirs = os.path.join(os.getcwd(), 'Mars\\cnn_MC_data\\run')
 
     sequence_length = 3  # Define the length of image sequences
 
