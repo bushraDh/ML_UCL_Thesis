@@ -1,7 +1,7 @@
 # Source Code and Contributions of UCL Master's Dissertation
 
 ## Dissertation Title:
-*Enhancing Deep Space Optical Navigation: Deep Learning Models for Mars and Asteroids Flyby Image Processing*
+**Enhancing Deep Space Optical Navigation: Deep Learning Models for Mars and Asteroids Flyby Image Processing**
 
 ## Contributions
 
