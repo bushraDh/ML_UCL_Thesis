@@ -25,4 +25,4 @@ The work presented in this dissertation makes significant contributions to the f
   - Adjust the size of the dataset by selecting the number of runs (509 runs max for Mars, 373 runs max for Itokawa).
 - **Step 2: training and testing**
   - Use "Static_models.ipynb" to train and test static models.
-  - Use "Dynamic_models.ipynb" to train and test dynamic models.
+  - Use "Sequential_models.ipynb" to train and test Sequential models.
